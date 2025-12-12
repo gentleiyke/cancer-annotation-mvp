@@ -1,12 +1,13 @@
 # Install packages and paths
-install.packages(c("jsonlite", "BiocManager", "dplyr", "purrr", "stringr"))
-BiocManager::install("Biostrings")
+# install.packages(c("jsonlite", "BiocManager", "dplyr", "purrr", "stringr"))
+# BiocManager::install("Biostrings")
 
 library(jsonlite)
 library(Biostrings)
 library(dplyr)
 library(purrr)
 library(stringr)
+library(ggplot2)
 
 # Helper: driver gene list
 driver_genes <- c(
@@ -292,10 +293,10 @@ annotated
 #   "Given a specific mutation found in this patient's tumour,
 #    tell me what it means in the context of our panel and African populations."
 example <- annotate_variant(
-  gene = "BRCA1",
-  position = 43045711,
+  gene = "TP53",
+  position = 7670669,
   ref = "C",
-  alt = "G",
+  alt = "A",
   mut_df = mut_df,
   afr_df = afr_df,
   meta_df = meta_df
