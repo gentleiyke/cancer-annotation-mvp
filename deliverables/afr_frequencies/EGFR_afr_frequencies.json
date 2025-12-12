@@ -1,0 +1,13 @@
+{
+  "gene": "EGFR",
+  "frequencies": [
+    {
+      "position": 55191821,
+      "ref": "C",
+      "alt": "A",
+      "frequency": 0,
+      "source": "gnomAD AFR (via GeneBe)"
+    }
+  ],
+  "note": "Frequencies derived from african_snp_frequencies.json (gnomAD AFR via GeneBe)."
+}

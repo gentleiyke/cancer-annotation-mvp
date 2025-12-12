@@ -1,0 +1,32 @@
+{
+  "gene": "BRCA2",
+  "mutations": [
+    {
+      "position": 38,
+      "ref": "G",
+      "alt": "A",
+      "type": "missense",
+      "protein_change": "p.Met1Ile",
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Hereditary breast-ovarian cancer 2 | cDNA: NM_000059.4:c.3G>A"
+    },
+    {
+      "position": 38,
+      "ref": null,
+      "alt": null,
+      "type": "frameshift",
+      "protein_change": "p.Pro2fs",
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Hereditary breast-ovarian cancer 2 | cDNA: NM_000059.4(BRCA2):c.5del"
+    },
+    {
+      "position": 32316435,
+      "ref": "G",
+      "alt": "A",
+      "type": "utr_variant",
+      "protein_change": "no protein change",
+      "classification": "Benign",
+      "notes": "Source: ClinVar | Condition: Hereditary breast and ovarian cancer syndrome | cDNA: NM_000059.4(BRCA2):c.-26G>A"
+    }
+  ]
+}

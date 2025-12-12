@@ -1,0 +1,13 @@
+{
+  "gene": "PALB2",
+  "frequencies": [
+    {
+      "position": 23607904,
+      "ref": "C",
+      "alt": "G",
+      "frequency": 0,
+      "source": "gnomAD AFR (via GeneBe)"
+    }
+  ],
+  "note": "Frequencies derived from african_snp_frequencies.json (gnomAD AFR via GeneBe)."
+}

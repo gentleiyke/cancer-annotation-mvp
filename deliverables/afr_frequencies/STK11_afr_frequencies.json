@@ -1,0 +1,13 @@
+{
+  "gene": "STK11",
+  "frequencies": [
+    {
+      "position": 1220623,
+      "ref": "C",
+      "alt": "T",
+      "frequency": 0,
+      "source": "gnomAD AFR (via GeneBe)"
+    }
+  ],
+  "note": "Frequencies derived from african_snp_frequencies.json (gnomAD AFR via GeneBe)."
+}

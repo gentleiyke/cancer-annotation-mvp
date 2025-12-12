@@ -1,0 +1,32 @@
+{
+  "gene": "PALB2",
+  "mutations": [
+    {
+      "position": 23603471,
+      "ref": "C",
+      "alt": "A",
+      "type": "nonsense",
+      "protein_change": "p.Tyr1183Ter",
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Hereditary cancer-predisposing syndrome (includes hereditary breast/ovarian cancer associated with PALB2) | cDNA: NM_024675.4:c.3549C>A"
+    },
+    {
+      "position": 23607864,
+      "ref": "G",
+      "alt": "A",
+      "type": "missense",
+      "protein_change": "p.Arg1117Lys",
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Familial cancer of breast / PALB2-related cancer predisposition | cDNA: NM_024675.4:c.3350G>A"
+    },
+    {
+      "position": 23607965,
+      "ref": "G",
+      "alt": "C",
+      "type": "missense",
+      "protein_change": "p.Glu1083Asp",
+      "classification": "Likely benign",
+      "notes": "Source: ClinVar | cDNA: NM_024675.4:c.3249G>C"
+    }
+  ]
+}

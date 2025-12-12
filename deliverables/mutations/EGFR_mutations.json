@@ -1,0 +1,23 @@
+{
+  "gene": "EGFR",
+  "mutations": [
+    {
+      "position": 55181378,
+      "ref": "C",
+      "alt": "T",
+      "type": "missense",
+      "protein_change": "p.Thr790Met",
+      "classification": "Somatic activating/resistance variant",
+      "notes": "Source: ClinVar | Condition: Somatic in NSCLC (drug resistance); sometimes seen in germline cancer predisposition reports | cDNA: NM_005228.5:c.2369C>T"
+    },
+    {
+      "position": 55191822,
+      "ref": "T",
+      "alt": "G",
+      "type": "missense",
+      "protein_change": "p.Leu858Arg",
+      "classification": "Somatic activating driver",
+      "notes": "Source: ClinVar | Condition: Somatic in lung adenocarcinoma / NSCLC (drug response mutation) | cDNA: NM_005228.5:c.2573T>G"
+    }
+  ]
+}
