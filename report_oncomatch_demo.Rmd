@@ -36,7 +36,44 @@ This report demonstrates the panel-level annotation engine:
 ### 2. Example annotated variants
 
 ```{r, echo=FALSE}
-annotated
+library(knitr)
+library(kableExtra)
+annotated_display <- annotated %>%
+select(
+gene,
+position,
+ref,
+alt,
+mutation_status,
+mutation_classification,
+afr_frequency,
+tier,
+tier_explanation
+)
+
+annotated_display %>%
+kable(
+format = "html",
+caption = "Annotated Variants – Tiered by Actionability",
+col.names = c(
+"Gene",
+"Position (GRCh38)",
+"Ref",
+"Alt",
+"Mutation status",
+"Clinical classification",
+"AFR frequency",
+"Tier",
+"Tier explanation"
+),
+escape = TRUE
+) %>%
+kable_styling(
+bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+full_width = FALSE,
+position = "center",
+font_size = 12
+)
 ```
 
 ### 3. Variants by tier
@@ -58,5 +95,40 @@ y = "Number of variants"
 ### 4. Single variant deep dive with a TP53 example
 
 ```{r, echo=FALSE}
-example
+example_display <- example %>%
+select(
+gene,
+position,
+ref,
+alt,
+mutation_classification,
+mutation_status,
+afr_frequency,
+tier,
+tier_explanation
+)
+
+example_display %>%
+kable(
+format = "html",
+caption = "Single Variant Deep Dive – TP53 Example",
+col.names = c(
+"Gene",
+"Position (GRCh38)",
+"Ref",
+"Alt",
+"Clinical classification",
+"Mutation status",
+"AFR frequency",
+"Tier",
+"Tier explanation"
+),
+escape = TRUE
+) %>%
+kable_styling(
+bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+full_width = FALSE,
+position = "center",
+font_size = 12
+)
 ```
