@@ -14,3 +14,15 @@ Contents:
 - `docs/DATA_SOURCES_AND_METHODS.txt` – Full description of how the data was collected and processed.
 
 See `gene_panel/docs/DATA_SOURCES_AND_METHODS.txt` for detailed data sources and methods.
+
+**How to run the annotation demo:**
+
+1. Clone this repo:
+
+   ```bash
+   git clone https://github.com/gentleiyke/cancer-annotation-mvp.git
+   cd cancer-annotation-mvp
+2. Open cancer-annotation-mvp.R in RStudio (or run it in R):
+   - Ensure your working directory is the project root.
+   - Run the script top to bottom.
+
