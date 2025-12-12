@@ -55,7 +55,7 @@ y = "Number of variants"
 )
 ```
 
-### 4. Single variant deep dive with a BRCA1 example
+### 4. Single variant deep dive with a TP53 example
 
 ```{r, echo=FALSE}
 example
