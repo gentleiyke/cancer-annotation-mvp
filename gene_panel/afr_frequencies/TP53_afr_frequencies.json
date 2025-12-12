@@ -1,0 +1,13 @@
+{
+  "gene": "TP53",
+  "frequencies": [
+    {
+      "position": 7670727,
+      "ref": "G",
+      "alt": "T",
+      "frequency": 0,
+      "source": "gnomAD AFR (via GeneBe)"
+    }
+  ],
+  "note": "Frequencies derived from african_snp_frequencies.json (gnomAD AFR via GeneBe)."
+}

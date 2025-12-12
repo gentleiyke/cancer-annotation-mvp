@@ -1,0 +1,32 @@
+{
+  "gene": "CDKN2A",
+  "mutations": [
+    {
+      "position": 21968347,
+      "ref": "A",
+      "alt": "G",
+      "type": "nonsense",
+      "protein_change": null,
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Familial melanoma / Hereditary cutaneous melanoma | cDNA: NM_000077.5:c.458-105A>G"
+    },
+    {
+      "position": 21970902,
+      "ref": "G",
+      "alt": "T",
+      "type": "missense",
+      "protein_change": "p.Asp153Tyr (D153Y)",
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Familial melanoma / melanoma-predisposition syndromes | cDNA: NM_000077.5:c.457G>T"
+    },
+    {
+      "position": 21970936,
+      "ref": "C",
+      "alt": "T",
+      "type": "synonymous",
+      "protein_change": "p.Pro155=",
+      "classification": "Likely benign",
+      "notes": "Source: ClinVar | Condition: familial melanoma / hereditary cancer-predisposing syndrome | cDNA: NM_000077.5:c.465C>T"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "BRCA1": {
+    "chromosome": "17q21.31",
+    "function": "Tumor suppressor involved in DNA double-strand break repair via homologous recombination.",
+    "hotspots": [
+      "C-terminal BRCT domain (pathogenic truncations are enriched)"
+    ],
+    "clinical_relevance": "Germline BRCA1 variants confer high risk of hereditary breast and ovarian cancer; used in clinical genetic testing.",
+    "major_cancer_associations": [
+      "Breast",
+      "Ovarian",
+      "Pancreatic"
+    ],
+    "gene_length": 127554
+  },
+  "BRCA2": {
+    "chromosome": "13q13.1",
+    "function": "DNA repair protein that partners with BRCA1 and PALB2 in homologous recombination.",
+    "hotspots": [
+      "Large exon 11 region with many loss-of-function variants"
+    ],
+    "clinical_relevance": "Germline BRCA2 variants increase risk of breast, ovarian, pancreatic and prostate cancers.",
+    "major_cancer_associations": [
+      "Breast",
+      "Ovarian",
+      "Prostate",
+      "Pancreatic"
+    ],
+    "gene_length": 86783
+  },
+  "PALB2": {
+    "chromosome": "16p12.2",
+    "function": "BRCA2-interacting protein that anchors BRCA2 to DNA damage sites, enabling homologous recombination.",
+    "hotspots": [
+      "C-terminal WD40 domain"
+    ],
+    "clinical_relevance": "Moderate-to-high risk hereditary breast cancer gene; PALB2 loss can influence PARP inhibitor sensitivity.",
+    "major_cancer_associations": [
+      "Breast",
+      "Pancreatic"
+    ],
+    "gene_length": 39762
+  },
+  "CDKN2A": {
+    "chromosome": "9p21.3",
+    "function": "Encodes p16INK4a and p14ARF, key regulators of the G1/S cell cycle checkpoint and p53 pathway.",
+    "hotspots": [
+      "Exon 2 region shared by p16INK4a and p14ARF"
+    ],
+    "clinical_relevance": "Frequently deleted or mutated in familial melanoma and pancreatic cancer; key tumor suppressor locus.",
+    "major_cancer_associations": [
+      "Melanoma",
+      "Pancreatic",
+      "Lung"
+    ],
+    "gene_length": 29150
+  },
+  "STK11": {
+    "chromosome": "19p13.3",
+    "function": "Serine/threonine kinase that regulates cell polarity and energy sensing pathways (including AMPK).",
+    "hotspots": [
+      "Kinase domain"
+    ],
+    "clinical_relevance": "Germline variants cause Peutz\u2013Jeghers syndrome; somatic loss is seen in lung adenocarcinoma and other tumors.",
+    "major_cancer_associations": [
+      "Lung adenocarcinoma",
+      "Pancreatic"
+    ],
+    "gene_length": 52474
+  },
+  "KRAS": {
+    "chromosome": "12p12.1",
+    "function": "Small GTPase in the RAS/MAPK pathway, acting as a molecular switch for growth factor signaling.",
+    "hotspots": [
+      "Codons 12, 13, 61"
+    ],
+    "clinical_relevance": "Oncogene; KRAS hotspot mutations predict lack of response to anti-EGFR therapy and drive multiple solid tumors.",
+    "major_cancer_associations": [
+      "Colorectal",
+      "Pancreatic",
+      "Lung"
+    ],
+    "gene_length": 47291
+  },
+  "EGFR": {
+    "chromosome": "7p11.2",
+    "function": "Receptor tyrosine kinase that controls cell proliferation and survival in response to growth factors.",
+    "hotspots": [
+      "Exon 19 deletions",
+      "L858R",
+      "T790M"
+    ],
+    "clinical_relevance": "Target of EGFR tyrosine kinase inhibitors in non-small cell lung cancer; activating mutations guide targeted therapy choices.",
+    "major_cancer_associations": [
+      "Lung adenocarcinoma"
+    ],
+    "gene_length": 194409
+  },
+  "TP53": {
+    "chromosome": "17p13.1",
+    "function": "Master tumor suppressor regulating DNA repair, apoptosis, and cellular stress responses.",
+    "hotspots": [
+      "R175",
+      "G245",
+      "R248",
+      "R273"
+    ],
+    "clinical_relevance": "Most frequently mutated gene across human cancers; important for prognosis and experimental targeted therapies.",
+    "major_cancer_associations": [
+      "Breast",
+      "Colorectal",
+      "Lung",
+      "Pancreatic"
+    ],
+    "gene_length": 27368
+  },
+  "SMAD4": {
+    "chromosome": "18q21.2",
+    "function": "Central mediator of TGF-\u03b2 signaling, forming transcriptional complexes that regulate cell fate decisions.",
+    "hotspots": [
+      "MH2 domain"
+    ],
+    "clinical_relevance": "Frequently inactivated in pancreatic and colorectal cancers; lost in a subset of juvenile polyposis cases.",
+    "major_cancer_associations": [
+      "Pancreatic",
+      "Colorectal"
+    ],
+    "gene_length": 58118
+  }
+}

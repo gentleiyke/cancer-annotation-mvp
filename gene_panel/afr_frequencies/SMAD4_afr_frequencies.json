@@ -1,0 +1,13 @@
+{
+  "gene": "SMAD4",
+  "frequencies": [
+    {
+      "position": 51030256,
+      "ref": "C",
+      "alt": "G",
+      "frequency": 0,
+      "source": "gnomAD AFR (via GeneBe)"
+    }
+  ],
+  "note": "Frequencies derived from african_snp_frequencies.json (gnomAD AFR via GeneBe)."
+}

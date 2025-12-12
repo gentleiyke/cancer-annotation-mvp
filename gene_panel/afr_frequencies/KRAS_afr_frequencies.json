@@ -1,0 +1,13 @@
+{
+  "gene": "KRAS",
+  "frequencies": [
+    {
+      "position": 25245361,
+      "ref": "T",
+      "alt": "A",
+      "frequency": 0,
+      "source": "gnomAD AFR (via GeneBe)"
+    }
+  ],
+  "note": "Frequencies derived from african_snp_frequencies.json (gnomAD AFR via GeneBe)."
+}

@@ -1,0 +1,32 @@
+{
+  "gene": "BRCA1",
+  "mutations": [
+    {
+      "position": 43045710,
+      "ref": null,
+      "alt": null,
+      "type": "frameshift",
+      "protein_change": "p.Tyr1853_Leu1854insTer",
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Hereditary breast\u2013ovarian cancer syndrome / Breast-ovarian cancer | cDNA: NM_007294.4(BRCA1):c.5560del"
+    },
+    {
+      "position": 38,
+      "ref": "C",
+      "alt": "G",
+      "type": "nonsense",
+      "protein_change": "p.Tyr1853Ter",
+      "classification": "Pathogenic",
+      "notes": "Source: ClinVar | Condition: Hereditary breast and ovarian cancer syndrome | cDNA: NM_007294.4(BRCA1):c.5559C>G"
+    },
+    {
+      "position": 38,
+      "ref": "T",
+      "alt": "A",
+      "type": "missense",
+      "protein_change": "p.Val1804Asp",
+      "classification": "Benign",
+      "notes": "Source: ClinVar | Condition: Hereditary breast and ovarian cancer syndrome | cDNA: NM_007294.4(BRCA1): c.5411T>A"
+    }
+  ]
+}
