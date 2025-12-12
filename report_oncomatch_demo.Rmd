@@ -1,0 +1,62 @@
+---
+title: "OncoMatch Panel Annotation Demo"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = TRUE, warning = TRUE)
+
+# Source the main engine script
+
+# This will:
+
+# - load required packages
+
+# - load the gene_panel data
+
+# - define annotate_variant(), assign_tier(), etc.
+
+# - run the example and create `annotated` and `example` objects
+
+source("cancer-annotation-mvp.R")
+```
+
+### 1. Overview
+
+This report demonstrates the panel-level annotation engine:
+
+-   Loads curated data from gene_panel/
+
+-   Annotates example variants using annotate_variant()
+
+-   Assigns tiers (Tier 1--4) using an OncoMatch-style "What Matters" rule
+
+-   Summarises variants by tier
+
+### 2. Example annotated variants
+
+```{r, echo=FALSE}
+annotated
+```
+
+### 3. Variants by tier
+
+```{r, echo=FALSE}
+library(ggplot2)
+tier_counts <- annotated |> dplyr::count(tier)
+
+ggplot(tier_counts, aes(x = tier, y = n)) +
+geom_col() +
+coord_flip() +
+labs(
+title = "Variant counts by tier",
+x = "Tier",
+y = "Number of variants"
+)
+```
+
+### 4. Single variant deep dive with a BRCA1 example
+
+```{r, echo=FALSE}
+example
+```
