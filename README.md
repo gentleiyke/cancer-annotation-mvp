@@ -79,7 +79,7 @@ Variant table (gene, position, ref, alt)
  (report_oncomatch_demo.Rmd)
 ```
 
-#### How to run the annotation demo:*
+#### How to run the annotation demo:
 1. Clone this repo:
 
    ```bash
